@@ -22,30 +22,30 @@ Once the processes id finished the Database will be created.
 Step 3: Installing the WordPress and httpd server on the EC2 instance
 
 Now, let's get back to EC2 and connect to the the instance we launched earlier. Once this is done run the following command:
-$ yum install httpd php -y
+1. $ yum install httpd php -y
 
 Download WordPress Software using :
-$ curl https://wordpress.org/latest.tar.gz --output wordpress.tar.gz
+1. $ curl https://wordpress.org/latest.tar.gz --output wordpress.tar.gz
 
 Once WordPress is downloaded follow the following steps:
 
 Unzip the downloaded WordPress tar file
-$ tar xf wordpress.tar.gz
+1. $ tar xf wordpress.tar.gz
 
 Go to WordPress directory and copy all the content of that directory to the /var/www/html directory
-$ cd wordpress
+1. $ cd wordpress
 
-$ cp -r * /var/www/html/
-$ systemctl start httpd
-$ systemctl status httpd
-
-Now Start the httpd services :
-$ systemctl start httpd
-$ systemctl status httpd
+2. $ cp -r * /var/www/html/
+3. $ systemctl start httpd
+4. $ systemctl status httpd
 
 Now Start the httpd services :
-$ systemctl start httpd
-$ systemctl status httpd
+1. $ systemctl start httpd
+2. $ systemctl status httpd
+
+Now Start the httpd services :
+1. $ systemctl start httpd
+2. $ systemctl status httpd
 
 
 Step 4: Go to the EC2 instance and copy Public IP to access the WordPress server
