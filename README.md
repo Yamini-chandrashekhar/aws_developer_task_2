@@ -1,12 +1,12 @@
 # aws_developer_task_2
 task aim:
-1.Create an AWS EC2 instance 
-2.Configure the instance with Apache Webserver.
-3.Download php application name "WordPress"".
-4.As wordpress stores data at the backend in MySQL
-5.Database server. Therefore, you need to setup a MySQL server using AWS RDS service using Free Tier.
-6.Provide the endpoint/connection string to the
-WordPress application to make it work. 
+
+1. Create an AWS EC2 instance 
+3. Configure the instance with Apache Webserver.
+4. Download php application name "WordPress"".
+5. As wordpress stores data at the backend in MySQL
+6. Database server. Therefore, you need to setup a MySQL server using AWS RDS service using Free Tier.
+7. Provide the endpoint/connection string to the WordPress application to make it work. 
 
 So here's how we can Integrating AWS RDS with WordPress Application on AWS Cloud in just 4 easy steps.
 
